@@ -9,7 +9,7 @@ public class ConexionBD {
 
     public Connection getConexion() {
         try {
-            String conexionUrl = "jdbc:sqlserver://localhost:1433;database=Control_Escolar;user=sa;password=lmci1202;";
+            String conexionUrl = "jdbc:sqlserver://localhost:1433;database=ControlEscolar;user=sa;password=Shared1980;";
             con = DriverManager.getConnection(conexionUrl);
             //System.out.println("Conexion exitosa");
         }catch (SQLException e){
